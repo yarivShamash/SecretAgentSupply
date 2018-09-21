@@ -86,11 +86,7 @@ nav{
   display: flex;
   background-color: firebrick;
   width: 100%;
-  /*justify-content: center;
-  align-items: center;
-  COULD'T CENTER THE Navigation Panel..*/
-  /*Can't add margin or padding, tried "margin/padding: 0.75ram auto;"
-  here, at 'nnav .inside' and at 'nav .inside a'*/
+  height: 2.5rem;
 }
 
 nav .inside{
@@ -107,34 +103,27 @@ nav .inside a {
   display: flex;
   justify-content: center;
 }
-
-.product{
+.ProCont .inside {
+  display: flex;
+  justify-content: space-between;
+}
+.ProCont .inside .product{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /*align-content: space-between;*/
   border: 4px solid black;
   margin-top: 3rem;
   width: 30%;
 }
 
-/*.ProCont .product .imgCont{
-  width: 100%;
-  height: auto;
-  background-color: marineblue;
-  z-index: 1;
-  background-image: url(./img/glasses.png);
-  background-position: center;
-  background-size: cover;
-  margin: 2rem auto;
-} Instead of refering to the image on the html file I tried to make an Image
- Container and set the images as Background-Images but the image didn't appear*/
-
 .ProCont .product img{
   margin: 2rem auto;
-
+  max-width: 100%;
+  height: 9rem;
 }
 
 .ProCont .product h3{
   background-color: black;
-  padding: 0.5rem auto;
+  padding: 0.5rem;
 }
