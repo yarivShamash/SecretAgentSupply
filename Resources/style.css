@@ -111,7 +111,6 @@ nav .inside a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /*align-content: space-between;*/
   border: 4px solid black;
   margin-top: 3rem;
   width: 30%;
@@ -126,4 +125,39 @@ nav .inside a {
 .ProCont .product h3{
   background-color: black;
   padding: 0.5rem;
+}
+/*Contact Info*/
+.InfoCont{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.InfoCont .inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.InfoCont .inside .info{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-top: 3rem;
+  }
+
+.InfoCont .inside .info h3{
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+
+.InfoCont .inside .info p{
+  color: black;
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  justify-content: flex-start;
+  height: 5rem;
+  background-color: black;
 }
